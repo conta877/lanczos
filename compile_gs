@@ -1,0 +1,3 @@
+gcc -g3  -lm -c -std=c99 gsLanczos.c
+gcc -g3 *.o  -lm -o gslanczos.xx
+rm -rf *.o
